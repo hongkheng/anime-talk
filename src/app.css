@@ -26,10 +26,34 @@ a:hover {
 
 body {
   margin: 0;
+
+}
+
+main {
   display: flex;
   place-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
   min-width: 320px;
   min-height: 100vh;
+  padding: 2rem;
+}
+
+main.collage {
+  min-width: 320px;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-collage {
+  position: relative;
+  height: 100vh;
+}
+
+.overlap {
+  position: absolute;
 }
 
 h1 {
@@ -42,10 +66,8 @@ h1 {
 }
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  /* 
+  text-align: center; */
 }
 
 button {
