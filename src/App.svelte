@@ -9,8 +9,7 @@
 <main>
   <div>
     <h1>The Melancholy of Hong Kheng</h1>
-    <p>About my own dying hobby of anime fandom in my younger days.</p>
-
+    <p>About my own dying hobby of anime/manga fandom in my younger days.</p>
   </div>
 </main>
 
@@ -57,7 +56,7 @@
 
 <main>
   <h1>why?</h1>
-  
+
 </main>
 
 <main>
