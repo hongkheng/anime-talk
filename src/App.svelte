@@ -4,6 +4,16 @@
   import sailormoon from './assets/Sailor_Senshi2.png'
   import smcomics from './assets/sailormoon_comic_books.jpeg'
   import animenano from './assets/animenano.png'
+  import usagi from './assets/usagi-sad.gif'
+  import blogger from './assets/Blogger-Logo.png'
+  import livejournal from './assets/livejournal.webp'
+  import onepiece from './assets/onepiece-luffy-wanted.gif'
+  import naruto from './assets/naruto_manga.jpg'
+  import manga_stuff from './assets/manga-stuff.webp'
+  import bleach from './assets/bleach_manga.jpg'
+  import opwtf from './assets/piratelickerOPwtf.gif'
+  import songs1 from './assets/songs1.png'
+  import songs2 from './assets/songs2.png'
 </script>
 
 <main>
@@ -11,7 +21,7 @@
     <h1>The Melancholy of Hong Kheng</h1>
     <p>About my own dying hobby of anime/manga fandom in my younger days.</p>
   </div>
-</main>
+</main> 
 
 <main class="collage">
   <div class="bg-collage">
@@ -22,46 +32,77 @@
 </main>
 
 <main>
-  <h1>Early internet days</h1>
   <div>
-    <p>Includes photos of skins of winamp </p>
+    <h1>1998 - 2002</h1>
+    <h2>Search the internet for information</h2>
+    <p>Didn't get to watch (full) anime episodes or series</p>
+    <p>Stick to listening to sound track songs</p>
+    <p>Plain oogling at the images</p> 
+    <img src={usagi} alt="sad" />
   </div>
-
 </main>
 
 <main>
-  <h1>Cable TV, somewhat faster internet</h1>
+  <div>
+    <h1>2003 - present</h1>
+    <h2>THE INTERNET</h2>
+    <div class="row">
+      <img src={blogger} width="230" alt="blogger" />
+      <img src={livejournal} width="250" height="auto" alt="lj" />
+    </div>
+    <img src={onepiece} alt="wanted" />
+  </div>
+</main>
+
+<main>
+  <img src={naruto} alt="nmanga" />
+</main>
+
+<main>
+  <img src={bleach} alt="" />
+</main>
+
+<main>
+  <p>find assorted manga covers</p>
 </main>
 
 <main class="collage">
-  <img src={animenano} alt="anime nano" width="70%" />
+  <img src={manga_stuff} alt="own" width="100%" />
 </main>
 
 <main>
-  <h2>Do get the resources from torrents site(s)</h2>
+  <div>
+    <h1>Music!!</h1>
+    <div>
+      <p>Has about ~~50 gb of <s>downloaded</s> music</p>
+      <p>Mostly MP3s with 320kps quality</p>
+      <p>Have some in FLAC format</p>
+    </div>
+    <div class="row">
+      <img src={songs1} alt="" width="600"/>
+      <img src={songs2} alt="" width="600" />
+    </div>
+    <div>
+      <p>Recently, using Apple Music more</p>
+      <p>Not downloading anymore</p>
+      <img src={opwtf} alt=""/>
+    </div>
+  </div>
 </main>
 
 <main>
-  <h1>Notable shounen titles</h1>
+  <div>
+    <h1>why?</h1>
 
+  </div>
 </main>
 
 <main>
-  clannad, shana, fate stay
-</main>
-
-<main>
-  shiroboko
-</main>
-
-<main>
-  <h1>why?</h1>
-
-</main>
-
-<main>
+  <div>
   <h1>Credits</h1>
   <img width='200' src={makona} alt="makona" />
+  </div>
+
 </main>
 
 <style>
