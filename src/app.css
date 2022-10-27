@@ -26,8 +26,9 @@ a:hover {
 
 body {
   margin: 0;
-
 }
+
+p { font-size: 1.5rem; }
 
 main {
   display: flex;
@@ -39,6 +40,12 @@ main {
   padding: 2rem;
 }
 
+main.hero {
+  padding: 0;
+  max-width: 100%;
+  background-color: white;
+}
+
 main.collage {
   min-width: 320px;
   max-width: 100%;
@@ -46,6 +53,7 @@ main.collage {
   margin: 0;
   padding: 0;
 }
+
 
 .bg-collage {
   position: relative;
@@ -59,6 +67,14 @@ main.collage {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h1.hero-header {
+  position: absolute;
+  top: 0.5em;
+  left: 2em;
+  font-size: 4rem;
+  color: black;
 }
 
 .row {

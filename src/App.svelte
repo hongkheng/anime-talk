@@ -16,10 +16,14 @@
   import songs2 from './assets/songs2.png'
 </script>
 
-<main>
-  <div>
-    <h1>The Melancholy of Hong Kheng</h1>
-    <p>About my own dying hobby of anime/manga fandom in my younger days.</p>
+<main class="hero">
+  <div class="hero-wrapper">
+    <div class="hero-haruhi">
+      <h1 class="hero-header">The Melancholy of Hong Kheng</h1>
+      <div class="hero-sub">About my own dying hobby of anime/manga fandom in my younger days.</div>
+    </div>
+    <div class="hero-sub-bg">
+    </div>
   </div>
 </main> 
 
@@ -106,5 +110,41 @@
 </main>
 
 <style>
+.hero-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hero-haruhi {
+  margin: 0;
+  padding: 0;
+  height: 0;
+  width: 0;
+  border-left: 30vw solid red;
+  border-right: 30vw solid transparent;
+  border-bottom: 30vw solid transparent;
+  border-top: 30vw solid red;
+}
+
+.hero-sub-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: url('./assets/haruhi-bg.png') no-repeat;
+  width: 40%;
+  height: 60%;
+  color: black;
+}
+
+.hero-sub {
+  position: absolute;
+  color: black;
+  top: 45vh;
+  left: 4.2em;
+  text-align: left;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  width: 50vw;
+}
 
 </style>
